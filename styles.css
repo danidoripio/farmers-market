@@ -1,0 +1,110 @@
+/*
+    Lesson 8 CSS
+    ============
+    Brad Hussey
+    bradhussey.ca
+    September 2013
+    */
+
+    /* Simple CSS Reset */
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    background: #333;
+    color: #222;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+#container{
+    background: white;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1{
+    margin: 0 0 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+/* Styling Links */
+
+/* unvisited link */
+a:link{
+    color: #7e3bad;
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:visited{
+    color: #7e3bad;
+}
+
+/* mouse over link */
+a:hover{
+    color: #7e3bad;
+    text-decoration: underline;
+}
+
+/* activelink */
+a:active{
+    color: #000;
+}
+
+/* Specific Link Styles */
+
+#link-1:hover{
+    background: #333;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#link-3{
+    background: #440bf0;
+    color: white;
+    padding: 5px;
+}
+
+#link-3:hover{
+    background: #05428c;
+    text-decoration: none;
+}
+
+#link-4:hover{
+    color: #333;
+    
+}
+
+/* CSS Positioning */
+
+#container{
+    position: relative;
+}
+
+.box{
+    background: #db4e4e;
+    color: white;
+    height: 150px;
+    width: 150px;
+    margin: 20px 0;
+}
+
+#relative-box{
+    position: relative;
+    top: 5px;
+    left: 45px;
+}
+
+#absolute-box{
+    position: 20px;
+    top: 5;
+    right: 45;
+}
